@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Couples Counselling Singapore | Gestalt Couples Therapy | Nicole Chew-Helbig</title>
+<meta name="description" content="Couples counselling and couples therapy in Singapore. Gestalt approach to relationship difficulties, communication, infidelity, separation. 80-minute sessions. Nicole Chew-Helbig, PhD.">
+<link rel="canonical" href="https://psychotherapist.sg/couples-counselling/">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="band"></div>
+<header class="site-header">
+  <div class="wrap--wide">
+    <a href="/" class="logo">Nicole Chew-Helbig <span>PhD</span></a>
+    <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/couples-counselling/">Couples</a>
+      <a href="/anxiety-counselling/">Anxiety</a>
+      <a href="/psychotherapy-blog/">Blog</a>
+      <a href="/couples-therapy-book/">Book</a>
+      <a href="/contact-me/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="label">Couples Therapy · Singapore</p>
+    <h1>Couples Counselling in <em>Singapore</em></h1>
+    <p class="lead">When the same arguments keep returning — or the silence has become louder than the fighting — therapy offers a way to see what's happening between you.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>When Couples Come to Therapy</h2>
+    <p>Most couples wait too long. By the time they walk into my office, the arguments have been circling for months — sometimes years. The distance has calcified. One person has already half-left, emotionally. The other is exhausted from trying.</p>
+    <p>This is not a criticism. It makes sense. Asking for help with your relationship feels like admitting defeat. It isn't — but it feels that way.</p>
+
+    <h3>You might recognise this</h3>
+    <p>The same argument keeps returning. Different trigger, same dynamic. You fight about dishes, but it's never really about the dishes. It's about feeling unseen, unappreciated, controlled, or abandoned — and neither of you can name that clearly enough to break the cycle.</p>
+    <p>You've stopped talking about the things that matter. The relationship has become functional. You coordinate logistics — children, finances, schedules — but the intimacy has gone quiet.</p>
+    <p>Something happened. An affair. A betrayal of trust. A loss. A secret. And you don't know how to move forward together without pretending it didn't happen.</p>
+    <p>Or you're at a crossroads — thinking about separation, thinking about staying, unable to decide.</p>
+
+    <h3>You don't need to be in crisis</h3>
+    <p>Couples therapy can also benefit your relationship when you're courting and want to get more connected, when you're coming out to parents and family, when you're seriously thinking of a life together, when you're awaiting milestones like trying to have a child, or when you simply want to build something strong from the beginning. This is one of the best reasons to come.</p>
+  </div>
+</section>
+
+<section class="section section--tinted">
+  <div class="wrap">
+    <p class="label">Gestalt Couples Therapy</p>
+    <h2>How Couples Therapy Works in My Practice</h2>
+    <p>You sit together. I sit across from both of you.</p>
+    <p>I'm not a referee. I'm not there to decide who's right. I'm watching what happens between you — how you speak, how you listen, where you defend, where you shut down, where you reach toward each other and miss.</p>
+    <p>Often the patterns become visible within minutes. The way one partner begins a sentence and the other is already bracing. The moment someone softens and the other doesn't notice. The thing that gets said over and over without ever being heard.</p>
+    <p>My work is to slow this down. To help you see what you're doing — not with blame, but with clarity. And then to create space for something different to happen.</p>
+    <p style="margin-top:1.5rem;">The therapeutic work includes observing couple interaction, accessing individuals in the couple, deliberate practice in communication, addressing recurring conflictual themes, overcoming gridlocks, finding shared values and meaning, and contactful silence and intimacy.</p>
+    <p>The critical ingredient is the openness and intention of both individuals to let connection happen in the session. As a therapist, my role is to actively facilitate this. What happens after that depends on how we channel this new learning in our daily lives.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label">Couples Counselling Fees</p>
+    <h2>Session Fees &amp; Booking</h2>
+    <div class="fees-row">
+      <div class="fee-card">
+        <p class="fee-label">Couples Counselling</p>
+        <div class="fee-price">$370</div>
+        <p class="fee-detail">80 minutes · In-person or online</p>
+      </div>
+      <div class="fee-card" style="display:flex; flex-direction:column; justify-content:center; align-items:center;">
+        <p><a href="https://book.heygoldie.com/Psychotherapy-SG" class="btn btn--green">Book a Couples Session</a></p>
+        <p style="font-size:0.82rem; color:#8a8478; margin-top:0.8rem;">or <a href="https://wa.me/6587978848">message me on WhatsApp</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tinted">
+  <div class="wrap">
+    <p class="label">Published by Routledge · 2026</p>
+    <h2>A Gestalt Approach to Couples Therapy: The Dance of Difference</h2>
+    <div style="display:grid; grid-template-columns:200px 1fr; gap:2rem; margin-top:1.5rem; align-items:start;">
+      <div>
+        <!-- BOOK COVER: replace this div with <img src="/couples-therapy-cover.jpg" alt="A Gestalt Approach to Couples Therapy book cover" style="width:200px; border-radius:3px;"> -->
+        <div style="width:200px; aspect-ratio:2/3; background:#e0dbd4; border-radius:3px; display:flex; align-items:center; justify-content:center; flex-direction:column; padding:1rem; text-align:center;">
+          <span style="font-family:'Playfair Display',Georgia,serif; font-size:0.9rem; color:#1a1a18; line-height:1.3;">A Gestalt Approach<br>to Couples Therapy</span>
+          <span style="font-family:'Playfair Display',Georgia,serif; font-size:0.75rem; color:#3d6b50; font-style:italic; margin-top:0.3rem;">The Dance of Difference</span>
+          <span style="margin-top:auto; font-size:0.6rem; color:#8a8478; text-transform:uppercase; letter-spacing:1px;">Nicole Chew-Helbig</span>
+        </div>
+      </div>
+      <div>
+        <p>This book explores how intimate relationships transform when difference is approached as a creative force rather than a problem to be solved. Drawing on Gestalt field theory, phenomenology, and clinical practice, it shows how couples struggle, connect, withdraw, and rediscover each other in lived contact.</p>
+        <p>It offers nine evocative clinical case studies written as creative non-fiction, close attention to felt sense and embodied interaction, and a sustained focus on shame, vulnerability, and relational impasses.</p>
+        <p><strong>ISBN:</strong> 9781041051466</p>
+        <p style="margin-top:1rem;">
+          <a href="https://www.amazon.com/Gestalt-Approach-Couples-Therapy-Difference/dp/1041051468/" class="btn btn--green" target="_blank">Buy on Amazon</a>&nbsp;&nbsp;
+          <a href="https://www.routledge.com/A-Gestalt-Approach-to-Couples-Therapy-The-Dance-of-Difference/Chew-Helbig/p/book/9781041051466" class="btn btn--outline" target="_blank">Routledge</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label">Couples Therapy Re-Examined</p>
+    <h2>Watch: The Dance of Difference Video Series</h2>
+    <p style="margin-bottom:2rem;">Short videos exploring what actually happens in Gestalt couples therapy — from my clinical practice and the ideas behind the book.</p>
+    <!-- 
+      TO ADD YOUR VIDEOS:
+      Replace VIDEO_ID_1, VIDEO_ID_2, etc. with your YouTube video IDs.
+      The video ID is the part after v= in a YouTube URL.
+      For example: https://www.youtube.com/watch?v=abc123 → VIDEO_ID is abc123
+    -->
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+      <div>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; background:#e0dbd4; border-radius:3px;">
+          <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;" src="https://www.youtube.com/embed/0B8z2v7POcc" title="The Metaphor that Changes How We View Connection" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p style="font-size:0.85rem; margin-top:0.5rem;"><strong>Stop Talking. Start Rolling the Ball.</strong></p>
+      </div>
+      <div>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; background:#e0dbd4; border-radius:3px;">
+          <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;" src="https://www.youtube.com/embed/gULgm2ia8JY" title="Why Trying to Change Your Partner Always Backfires" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p style="font-size:0.85rem; margin-top:0.5rem;"><strong>Why Trying to Change Your Partner Always Backfires</strong></p>
+      </div>
+      <div>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; background:#e0dbd4; border-radius:3px;">
+          <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;" src="https://www.youtube.com/embed/QzdUvs4a7zs" title="Why 'Two Becomes One' Destroys Intimacy" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p style="font-size:0.85rem; margin-top:0.5rem;"><strong>Your Partner's Worst Habit Is a Survival Strategy</strong></p>
+      </div>
+      <div>
+        <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; background:#e0dbd4; border-radius:3px;">
+          <iframe style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;" src="https://www.youtube.com/embed/2yWCKaIjKdc" title="Stop Talking. Start Rolling the Ball." allowfullscreen loading="lazy"></iframe>
+        </div>
+        <p style="font-size:0.85rem; margin-top:0.5rem;"><strong>"I Am Not Their Mother" — When Honesty Saves a Relationship</strong></p>
+      </div>
+    </div>
+    <p style="margin-top:1.5rem; text-align:center;"><a href="https://www.youtube.com/@nikhelbig" target="_blank">Watch all episodes on YouTube &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section section--tinted" style="text-align:center;">
+  <div class="wrap">
+    <h2>Ready to Begin?</h2>
+    <p>Whether you're stuck in the same argument, facing a crisis, or simply wanting to connect more deeply — couples therapy offers a way through.</p>
+    <p style="margin-top:1.5rem;">
+      <a href="https://book.heygoldie.com/Psychotherapy-SG" class="btn btn--green">Book a Couples Session</a>&nbsp;&nbsp;
+      <a href="/" class="btn btn--outline">Back to Home</a>
+    </p>
+  </div>
+</section>
+
+<div class="band band--bottom"></div>
+</body>
+</html>
