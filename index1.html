@@ -1,5 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  STRUCTURED DATA FOR index1.html (Tiong Bahru — from 1 July)   ║
+  ║                                                                  ║
+  ║  Paste this INSIDE your <head> tag, before </head>               ║
+  ║  Replaces the Clarke Quay version when you switch over           ║
+  ╚══════════════════════════════════════════════════════════════════╝
+-->
+
+<!-- Psychologist / Business Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Psychologist",
+  "name": "Nicole Chew-Helbig",
+  "image": "https://psychotherapist.sg/nicole-chew-helbig.jpg",
+  "url": "https://psychotherapist.sg",
+  "telephone": "+6587978848",
+  "priceRange": "SGD 220–370",
+  "description": "Certified Integrative Gestalt psychotherapist and counsellor in Singapore offering individual psychotherapy, couples counselling, trauma therapy and EMDR.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "73 Eng Watt Street, Tiong Bahru Estate",
+    "addressLocality": "Singapore",
+    "addressRegion": "Central",
+    "postalCode": "160073",
+    "addressCountry": "SG"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 1.2842,
+    "longitude": 103.8318
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/nicole-chew-helbig-453991227/",
+    "https://nikhelbig.at",
+    "https://www.facebook.com/GestaltTherapySG/",
+    "https://www.psychologytoday.com/sg/counselling/nicole-chew-helbig-singapore-sg/713251"
+  ],
+  "knowsAbout": [
+    "Gestalt Therapy",
+    "EMDR",
+    "Trauma Therapy",
+    "Couples Counselling",
+    "Anxiety Treatment",
+    "Depression Therapy",
+    "Burnout",
+    "OCD Treatment"
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Singapore Association for Counselling"
+    },
+    {
+      "@type": "Organization",
+      "name": "Singapore Psychological Society"
+    },
+    {
+      "@type": "Organization",
+      "name": "Association for Psychotherapists and Counsellors Singapore"
+    }
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "doctorate",
+    "educationalLevel": "PhD in Psychotherapy Science",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Sigmund Freud University Vienna"
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Singapore"
+  }
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can psychotherapy help me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gestalt Psychotherapy is an excellent resource for anyone who seeks a set and setting to re-calibrate themselves and press that internal reset button. Psychotherapy is an effective way for busy people to gain mental clarity, resiliency from emotional triggers, better sleep, health, and an overall sense of calm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens in a psychotherapy session?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A session feels like a conversation in a living room — unhurried, natural, grounded. Sometimes Mulan, my Singapore Special dog, is there too, quietly present. We sit with what's actually happening for you. The pace is yours. Therapy isn't something that happens to you here. It unfolds with you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does psychotherapy cost in Singapore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Psychotherapy in Singapore can cost between $40 and $350 per 50-min session. At my practice, individual psychotherapy (50 minutes) is SGD 220 and couples counselling (80 minutes) is SGD 370. The therapeutic outcome is correlated with the skill of the therapist, the therapeutic alliance and the client's willingness to participate in the work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read the information on this site. Book an appointment using the link, or send me a message. Arrive 5–10 minutes before the first appointment to fill out a short form. Your therapy begins from this point."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many sessions of psychotherapy do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends. If you come to solve a particular issue, therapy ends when the solution is in sight. For symptoms that seriously interfere with daily functioning, effective work happens over months. Most clients continue because psychotherapy is a good resource for finding their ground."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who would couples counselling benefit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Couples therapy can benefit your relationship when you're courting, coming out to family, thinking of a life together, facing a crisis or infidelity, considering separation, co-parenting, or when someone has taken ill."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Service Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Psychotherapy and Counselling",
+  "provider": {
+    "@type": "Psychologist",
+    "name": "Nicole Chew-Helbig",
+    "url": "https://psychotherapist.sg"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Singapore"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Psychotherapy Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Individual Psychotherapy",
+          "description": "45–50 minute sessions shaped around what you're dealing with, your pace, and what feels important to you right now."
+        },
+        "price": "220",
+        "priceCurrency": "SGD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Couples Counselling",
+          "description": "80-minute sessions working with both partners, looking at patterns as they show up in real time."
+        },
+        "price": "370",
+        "priceCurrency": "SGD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Trauma Therapy (Gestalt & EMDR)",
+          "description": "Gestalt therapy and EMDR for working with childhood trauma and other overwhelming experiences, at a pace that feels manageable."
+        }
+      }
+    ]
+  }
+}
+</script>
+
+<!-- Open Graph & additional meta tags (also paste in <head>) -->
+<meta property="og:title" content="Psychotherapy & Counselling Singapore | Nicole Chew-Helbig, PhD">
+<meta property="og:description" content="Integrative Gestalt psychotherapy for individuals and couples. A grounded, relational approach to anxiety, trauma, burnout, and the difficulties that bring people to therapy.">
+<meta property="og:url" content="https://psychotherapist.sg">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://psychotherapist.sg/nicole-chew-helbig.jpg">
+<meta property="og:locale" content="en_SG">
+<meta name="geo.region" content="SG">
+<meta name="geo.placename" content="Singapore">
+  
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
