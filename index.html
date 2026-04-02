@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <!--
   ╔══════════════════════════════════════════════════════════════╗
@@ -10,7 +9,6 @@
 -->
 
 <!-- Psychologist / Business Schema -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -89,7 +87,6 @@
 </script>
 
 <!-- FAQ Schema -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -148,7 +145,6 @@
 </script>
 
 <!-- Service Schema -->
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -201,7 +197,6 @@
 </script>
 
 <!-- Open Graph & additional meta tags (also paste in <head>) -->
-
 <meta property="og:title" content="Psychotherapy & Counselling Singapore | Nicole Chew-Helbig, PhD">
 <meta property="og:description" content="Integrative Gestalt psychotherapy for individuals and couples. A grounded, relational approach to anxiety, trauma, burnout, and the difficulties that bring people to therapy.">
 <meta property="og:url" content="https://psychotherapist.sg">
@@ -210,7 +205,7 @@
 <meta property="og:locale" content="en_SG">
 <meta name="geo.region" content="SG">
 <meta name="geo.placename" content="Singapore">
-
+  
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -222,98 +217,6 @@
 <meta property="og:description" content="Integrative Gestalt psychotherapy for individuals and couples in Singapore.">
 <meta property="og:url" content="https://psychotherapist.sg/">
 <meta property="og:type" content="website">
-
-<style>
-/* ─── SCROLL REVEAL ─────────────────────────────────────────── */
-.reveal {
-  opacity: 0;
-  transform: translateY(22px);
-  transition: opacity 0.65s ease, transform 0.65s ease;
-}
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
-
-/* ─── HERO PARALLAX IMAGE ───────────────────────────────────── */
-.hero-chairs {
-  will-change: transform;
-  transition: transform 0.05s linear;
-}
-
-/* ─── CARD HOVER LIFT ───────────────────────────────────────── */
-.card {
-  transition: transform 0.28s ease, box-shadow 0.28s ease;
-  cursor: default;
-}
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(158, 74, 90, 0.12);
-}
-
-/* ─── BREATHING CTA BUTTON ──────────────────────────────────── */
-@keyframes breathe {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(158, 74, 90, 0.0); }
-  50%       { box-shadow: 0 0 0 8px rgba(158, 74, 90, 0.15); }
-}
-.btn--green {
-  animation: breathe 3.2s ease-in-out infinite;
-}
-
-/* ─── SMOOTH FAQ ACCORDION ──────────────────────────────────── */
-.faq-a {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.3s ease;
-  padding-top: 0;
-}
-.faq-item.open .faq-a {
-  max-height: 400px;
-  padding-top: 0.75rem;
-}
-
-/* ─── FAQ CHEVRON ───────────────────────────────────────────── */
-.faq-q {
-  position: relative;
-  padding-right: 2rem;
-}
-.faq-q::after {
-  content: '›';
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%) rotate(90deg);
-  font-size: 1.25rem;
-  color: #9e4a5a;
-  transition: transform 0.3s ease;
-  line-height: 1;
-}
-.faq-item.open .faq-q::after {
-  transform: translateY(-50%) rotate(270deg);
-}
-
-/* ─── FEE CARD HOVER ────────────────────────────────────────── */
-.fee-card {
-  transition: transform 0.28s ease, box-shadow 0.28s ease;
-}
-.fee-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 28px rgba(158, 74, 90, 0.10);
-}
-
-/* ─── PHOTO HOVER ───────────────────────────────────────────── */
-img.photo {
-  transition: transform 0.35s ease, filter 0.35s ease;
-}
-img.photo:hover {
-  transform: scale(1.03);
-  filter: brightness(1.04);
-}
-</style>
-
 </head>
 <body>
 <div class="band"></div>
@@ -325,7 +228,6 @@ img.photo:hover {
       <a href="/">Home</a>
       <a href="couples-counselling.html">Couples</a>
       <a href="anxiety-counselling.html">Anxiety</a>
-      <a href="gestalt-therapy.html">Why Gestalt Therapy</a>
       <a href="psychotherapy-blog.html">Blog</a>
       <a href="https://nicolechewhelbig.com" target="_blank" rel="noopener noreferrer">Publications</a>
       <a href="https://wa.me/6587978848" target="_blank" rel="noopener noreferrer">Contact</a>
@@ -335,19 +237,19 @@ img.photo:hover {
 
 <section class="section">
   <div class="wrap">
-    <p class="label reveal">Psychotherapy &amp; Counselling · Singapore</p>
-    <h1 class="reveal reveal-delay-1" id="hero-h1" aria-label="Psychotherapy That Begins With Where You Are"></h1>
-    <p style="max-width:540px; margin-top:1rem;" class="reveal reveal-delay-2">Integrative Gestalt psychotherapy for individuals and couples. A grounded, relational approach to anxiety, trauma, burnout, and the difficulties that bring people to therapy.</p>
-    <p style="margin-top:1.5rem;" class="reveal reveal-delay-3"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book an Appointment</a></p>
-    <img src="https://psychotherapist.sg/chairs8.png" alt="Two therapy chairs facing each other" class="hero-chairs reveal reveal-delay-3" style="width:200px; opacity:0.85; margin-top:1.5rem;">
+    <p class="label">Psychotherapy &amp; Counselling · Singapore</p>
+    <h1>Psychotherapy That Begins<br>With <em>Where You Are</em></h1>
+    <p style="max-width:540px; margin-top:1rem;">Integrative Gestalt psychotherapy for individuals and couples. A grounded, relational approach to anxiety, trauma, burnout, and the difficulties that bring people to therapy.</p>
+    <p style="margin-top:1.5rem;"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book an Appointment</a></p>
+    <img src="https://psychotherapist.sg/chairs2.png" alt="Two therapy chairs facing each other" style="width:200px; opacity:0.85; margin-top:1.5rem;">
   </div>
 </section>
 
 <section class="section section--tinted">
   <div class="wrap">
-    <p class="label reveal">About Your Therapist</p>
-    <h2 class="reveal reveal-delay-1">Psychotherapist Nicole Chew-Helbig</h2>
-    <div class="photo-bio reveal reveal-delay-2" style="margin-top:1.5rem;">
+    <p class="label">About Your Therapist</p>
+    <h2>Psychotherapist Nicole Chew-Helbig</h2>
+    <div class="photo-bio" style="margin-top:1.5rem;">
       <div>
         <img src="nicole-chew-helbig.jpg" alt="Nicole Chew-Helbig, psychotherapist in Singapore" class="photo" style="width:180px; border-radius:3px;">
       </div>
@@ -363,34 +265,34 @@ img.photo:hover {
 
 <section class="section">
   <div class="wrap">
-    <p class="label reveal">Therapeutic Approach</p>
-    <h2 class="reveal reveal-delay-1">Integrative Gestalt Therapy in Singapore</h2>
-    <p class="reveal reveal-delay-2">My work is grounded in <a href="gestalt-therapy.html">Integrative Gestalt Therapy</a>. Rather than manualising and assessing, this approach responds to who you are and what you're ready for.</p>
-    <p class="reveal reveal-delay-2">Gestalt therapy places emphasis on awareness — what you notice, feel, and experience in the present moment — and how change often begins through real contact, not techniques.</p>
-    <p class="reveal reveal-delay-3">The work draws from psychoanalysis, phenomenology, Eastern philosophy, body-based approaches, and psychodrama. I work with attention to context — personal, relational, cultural, and social — supporting changes that feel grounded and can be carried into everyday life.</p>
+    <p class="label">Therapeutic Approach</p>
+    <h2>Integrative Gestalt Therapy in Singapore</h2>
+    <p>My work is grounded in Integrative Gestalt Therapy. Rather than manualising and assessing, this approach responds to who you are and what you're ready for.</p>
+    <p>Gestalt therapy places emphasis on awareness — what you notice, feel, and experience in the present moment — and how change often begins through real contact, not techniques.</p>
+    <p>The work draws from psychoanalysis, phenomenology, Eastern philosophy, body-based approaches, and psychodrama. I work with attention to context — personal, relational, cultural, and social — supporting changes that feel grounded and can be carried into everyday life.</p>
   </div>
 </section>
 
 <section class="section section--tinted">
   <div class="wrap">
-    <p class="label reveal">Psychotherapy Services</p>
-    <h2 class="reveal reveal-delay-1">Individual Therapy, Couples Counselling &amp; Trauma Work</h2>
-    <p style="max-width:620px; margin-bottom:2rem;" class="reveal reveal-delay-2">I offer psychotherapy and counselling for individuals working with anxiety, depression, burnout, OCD, work stress, trauma, and relationship difficulties. My practice also includes work with compulsive behaviours, sexual addiction, questions around gender and identity, dissociation, sleep problems, chronic pain, substance use, and disordered eating.</p>
+    <p class="label">Psychotherapy Services</p>
+    <h2>Individual Therapy, Couples Counselling &amp; Trauma Work</h2>
+    <p style="max-width:620px; margin-bottom:2rem;">I offer psychotherapy and counselling for individuals working with anxiety, depression, burnout, OCD, work stress, trauma, and relationship difficulties. My practice also includes work with compulsive behaviours, sexual addiction, questions around gender and identity, dissociation, sleep problems, chronic pain, substance use, and disordered eating.</p>
     <div class="three-col">
-      <div class="card reveal reveal-delay-1">
+      <div class="card">
         <p class="card-label">Individual Therapy</p>
         <h3>Psychotherapy for Individuals</h3>
         <p>45–50 minute sessions shaped around what you're dealing with, your pace, and what feels important to you right now. A place to slow down and take a closer look at what's going on.</p>
       </div>
-      <div class="card reveal reveal-delay-2">
+      <div class="card">
         <p class="card-label">Couples Therapy</p>
         <h3>Couples Counselling Singapore</h3>
         <p>80-minute sessions working with both partners. We look at patterns as they show up in real time — how you speak, listen, defend, withdraw, or reach for each other.</p>
         <p style="margin-top:0.5rem;"><a href="couples-counselling.html">Learn more &rarr;</a></p>
       </div>
-      <div class="card reveal reveal-delay-3">
+      <div class="card">
         <p class="card-label">Trauma Therapy</p>
-        <h3>Gestalt Therapy &amp; non-manualised EMDR</h3>
+        <h3>Gestalt Therapy &amp; EMDR</h3>
         <p>We move carefully and at a pace that feels manageable. Using a Gestalt approach, we stay grounded in the present while gently bringing unfinished or fragmented experiences into awareness.</p>
       </div>
     </div>
@@ -399,37 +301,41 @@ img.photo:hover {
 
 <section class="section">
   <div class="wrap">
-    <p class="label reveal">Psychotherapy Fees</p>
-    <h2 class="reveal reveal-delay-1">Session Fees &amp; Booking</h2>
+    <p class="label">Psychotherapy Fees</p>
+    <h2>Session Fees &amp; Booking</h2>
     <div class="fees-row">
-      <div class="fee-card reveal reveal-delay-1">
+      <div class="fee-card">
         <p class="fee-label">Individual Psychotherapy</p>
         <div class="fee-price">$220</div>
         <p class="fee-detail">50 minutes · In-person or online</p>
       </div>
-      <div class="fee-card reveal reveal-delay-2">
+      <div class="fee-card">
         <p class="fee-label">Couples Counselling</p>
         <div class="fee-price">$370</div>
         <p class="fee-detail">80 minutes · In-person or online</p>
       </div>
     </div>
-    <p class="reveal"><strong>First session is where the work starts.</strong> For most people, the work begins in the first session. The most meaningful way to know whether this work suits you is to experience a full session and notice how it lands in you.</p>
-    <p class="reveal"><strong>Cancellation:</strong> Please let me know as soon as possible if you need to change your appointment. Cancellations made less than 48 hours before the session start time are charged in full.</p>
-    <p style="margin-top:1.5rem;" class="reveal reveal-delay-1"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book Appointment Online</a></p>
+    <p><strong>First session is where the work starts.</strong> For most people, the work begins in the first session. The most meaningful way to know whether this work suits you is to experience a full session and notice how it lands in you.</p>
+    <p><strong>Cancellation:</strong> Please let me know as soon as possible if you need to change your appointment. Cancellations made less than 48 hours before the session start time are charged in full.</p>
+    <p style="margin-top:1.5rem;"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book Appointment Online</a></p>
   </div>
 </section>
 
 <section class="section section--tinted">
   <div class="wrap">
-    <p class="label reveal">Psychotherapy Practice Location</p>
-    <h2 class="reveal reveal-delay-1">Contact &amp; Appointments</h2>
-    <div class="contact-row reveal reveal-delay-2" style="margin-top:1.5rem;">
+    <p class="label">Psychotherapy Practice Location</p>
+    <h2>Contact &amp; Appointments</h2>
+    <div class="contact-row" style="margin-top:1.5rem;">
       <div>
         <div class="address">
           <p class="address-label">Practice Address</p>
           <p>20 Upper Circular Road, #01-13<br>The Riverwalk, Singapore 058416</p>
         </div>
         <p>2 min walk from Clarke Quay MRT Station (exit Boat Quay / Eu Tong Sen Str.)</p>
+        <div style="margin-top:1.25rem; padding:1rem 1.25rem; border-left:3px solid #9e4a5a; background:rgba(158,74,90,0.06); border-radius:0 4px 4px 0;">
+          <p style="margin:0 0 0.3rem; font-weight:600; color:#9e4a5a;">Moving to Tiong Bahru · 1 July 2026</p>
+          <p style="margin:0;">My practice is relocating to <strong>65 Tiong Poh Road, #02-26, Singapore 160065</strong> — a quieter, more grounded space in the Tiong Bahru conservation area.</p>
+        </div>
         <p style="margin-top:1.5rem;">
           <a href="https://wa.me/6587978848" class="btn btn--outline" target="_blank" rel="noopener noreferrer">WhatsApp</a>&nbsp;&nbsp;
           <a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book Online</a>
@@ -447,18 +353,18 @@ img.photo:hover {
 
 <section class="section">
   <div class="wrap">
-    <p class="label reveal">Common Questions</p>
-    <h2 class="reveal reveal-delay-1">Frequently Asked Questions About Psychotherapy</h2>
-    <div class="faq-item reveal reveal-delay-1"><div class="faq-q">How can psychotherapy help me?</div><div class="faq-a"><p>Gestalt Psychotherapy is an excellent resource for anyone who seeks a set and setting to re-calibrate themselves and press that "internal reset button". Psychotherapy is an effective way for busy people to gain mental clarity, resiliency from emotional triggers, better sleep, health, and an overall sense of calm.</p></div></div>
-    <div class="faq-item reveal reveal-delay-2"><div class="faq-q">What happens in a psychotherapy session?</div><div class="faq-a"><p>A session feels like a conversation in a living room — unhurried, natural, grounded. Sometimes Mulan, my Singapore Special dog, is there too, quietly present. We sit with what's actually happening for you. The pace is yours. Therapy isn't something that happens <em>to</em> you here. It unfolds <em>with</em> you.</p></div></div>
-    <div class="faq-item reveal reveal-delay-2"><div class="faq-q">How much does psychotherapy cost in Singapore?</div><div class="faq-a"><p>Psychotherapy in Singapore can cost between $40 and $350 per 50-min session. At my practice, it is $220. The therapeutic outcome is correlated with the skill of the therapist, the therapeutic alliance and the client's willingness to participate in the work.</p></div></div>
-    <div class="faq-item reveal reveal-delay-3"><div class="faq-q">How do I start therapy?</div><div class="faq-a"><p>Read the information on this site. Book an appointment using the link, or send me a message. Arrive 5–10 minutes before the first appointment to fill out a short form. Your therapy begins from this point.</p></div></div>
-    <div class="faq-item reveal reveal-delay-3"><div class="faq-q">How many sessions do I need?</div><div class="faq-a"><p>It depends. If you come to solve a particular issue, therapy ends when the solution is in sight. For symptoms that seriously interfere with daily functioning, effective work happens over months. Most clients continue because psychotherapy is a good resource for finding their ground.</p></div></div>
-    <div class="faq-item reveal reveal-delay-3"><div class="faq-q">Who would couples counselling benefit?</div><div class="faq-a"><p>Couples therapy can benefit your relationship when you're courting, coming out to family, thinking of a life together, facing a crisis or infidelity, considering separation, co-parenting, or when someone has taken ill.</p></div></div>
+    <p class="label">Common Questions</p>
+    <h2>Frequently Asked Questions About Psychotherapy</h2>
+    <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How can psychotherapy help me?</div><div class="faq-a"><p>Gestalt Psychotherapy is an excellent resource for anyone who seeks a set and setting to re-calibrate themselves and press that "internal reset button". Psychotherapy is an effective way for busy people to gain mental clarity, resiliency from emotional triggers, better sleep, health, and an overall sense of calm.</p></div></div>
+    <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">What happens in a psychotherapy session?</div><div class="faq-a"><p>A session feels like a conversation in a living room — unhurried, natural, grounded. Sometimes Mulan, my Singapore Special dog, is there too, quietly present. We sit with what's actually happening for you. The pace is yours. Therapy isn't something that happens <em>to</em> you here. It unfolds <em>with</em> you.</p></div></div>
+    <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How much does psychotherapy cost in Singapore?</div><div class="faq-a"><p>Psychotherapy in Singapore can cost between $40 and $350 per 50-min session. At my practice, it is $220. The therapeutic outcome is correlated with the skill of the therapist, the therapeutic alliance and the client's willingness to participate in the work.</p></div></div>
+    <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How do I start therapy?</div><div class="faq-a"><p>Read the information on this site. Book an appointment using the link, or send me a message. Arrive 5–10 minutes before the first appointment to fill out a short form. Your therapy begins from this point.</p></div></div>
+    <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">How many sessions do I need?</div><div class="faq-a"><p>It depends. If you come to solve a particular issue, therapy ends when the solution is in sight. For symptoms that seriously interfere with daily functioning, effective work happens over months. Most clients continue because psychotherapy is a good resource for finding their ground.</p></div></div>
+    <div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Who would couples counselling benefit?</div><div class="faq-a"><p>Couples therapy can benefit your relationship when you're courting, coming out to family, thinking of a life together, facing a crisis or infidelity, considering separation, co-parenting, or when someone has taken ill.</p></div></div>
   </div>
 </section>
 
-<div style="text-align:center; padding:2rem 0; border-top:1px solid #e0dbd4;" class="reveal">
+<div style="text-align:center; padding:2rem 0; border-top:1px solid #e0dbd4;">
   <a href="https://nicolechewhelbig.com/couples-therapy.html" style="font-family:'Playfair Display',Georgia,serif; font-size:1rem; font-style:italic;" target="_blank" rel="noopener noreferrer">New book: A Gestalt Approach to Couples Therapy — The Dance of Difference &rarr;</a>
 </div>
 
@@ -476,116 +382,5 @@ img.photo:hover {
   </div>
 </footer>
 <div class="band band--bottom"></div>
-
-<script>
-/* ─── 1. SCROLL REVEAL ──────────────────────────────────────── */
-(function () {
-  const els = document.querySelectorAll('.reveal');
-  const io = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((e) => {
-        if (e.isIntersecting) {
-          e.target.classList.add('visible');
-          io.unobserve(e.target);
-        }
-      });
-    },
-    { threshold: 0.12 }
-  );
-  els.forEach((el) => io.observe(el));
-  /* Fire immediately for anything already in view on load */
-  setTimeout(() => {
-    document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
-      const r = el.getBoundingClientRect();
-      if (r.top < window.innerHeight) el.classList.add('visible');
-    });
-  }, 80);
-})();
-
-/* ─── 2. TYPING EFFECT ON H1 ───────────────────────────────── */
-(function () {
-  const el = document.getElementById('hero-h1');
-  if (!el) return;
-  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const parts = [
-    { text: 'Psychotherapy That Begins', em: false },
-    { text: '\nWith ', em: false },
-    { text: 'Where You Are', em: true }
-  ];
-  let html = '';
-  let charIndex = 0;
-  const allChars = [];
-  parts.forEach(function (p) {
-    p.text.split('').forEach(function (c) {
-      allChars.push({ char: c, em: p.em });
-    });
-  });
-
-  function buildHTML() {
-    let result = '';
-    let inEm = false;
-    allChars.slice(0, charIndex).forEach(function (c) {
-      if (c.char === '\n') {
-        if (inEm) { result += '</em>'; inEm = false; }
-        result += '<br>';
-        return;
-      }
-      if (c.em && !inEm) { result += '<em>'; inEm = true; }
-      if (!c.em && inEm) { result += '</em>'; inEm = false; }
-      result += c.char;
-    });
-    if (inEm) result += '</em>';
-    return result;
-  }
-
-  if (mq.matches) {
-    el.innerHTML = 'Psychotherapy That Begins<br>With <em>Where You Are</em>';
-    return;
-  }
-
-  /* Wait until the element is visible, then start */
-  const io = new IntersectionObserver(function (entries) {
-    if (!entries[0].isIntersecting) return;
-    io.disconnect();
-    el.classList.add('visible');
-    const delay = 520; /* ms after visible before typing starts */
-    setTimeout(function tick() {
-      charIndex++;
-      el.innerHTML = buildHTML();
-      if (charIndex < allChars.length) {
-        setTimeout(tick, 38);
-      }
-    }, delay);
-  }, { threshold: 0.2 });
-  io.observe(el);
-})();
-
-/* ─── 4. SMOOTH FAQ (replaces inline onclick) ───────────────── */
-document.querySelectorAll('.faq-q').forEach(function (q) {
-  q.addEventListener('click', function () {
-    const item = this.parentElement;
-    const isOpen = item.classList.contains('open');
-    /* Close all */
-    document.querySelectorAll('.faq-item.open').forEach(function (el) {
-      el.classList.remove('open');
-    });
-    /* Re-open if it was closed */
-    if (!isOpen) item.classList.add('open');
-  });
-});
-
-/* ─── 5. HERO PARALLAX ──────────────────────────────────────── */
-(function () {
-  const img = document.querySelector('.hero-chairs');
-  if (!img) return;
-  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
-  if (mq.matches) return;
-  window.addEventListener('scroll', function () {
-    const offset = window.scrollY;
-    img.style.transform = 'translateY(' + offset * 0.18 + 'px)';
-  }, { passive: true });
-})();
-</script>
-
 </body>
 </html>
