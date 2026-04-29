@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  STRUCTURED DATA FOR index.html (Clarke Quay — until July)  ║
+  ║                                                              ║
+  ║  Paste this INSIDE your <head> tag, before </head>           ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+
+<!-- Psychologist / Business Schema -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Psychologist",
+  "name": "Nicole Chew-Helbig",
+  "image": "https://psychotherapist.sg/nicole-chew-helbig.jpg",
+  "url": "https://psychotherapist.sg",
+  "telephone": "+6587978848",
+  "priceRange": "SGD 220–370",
+  "description": "Certified Integrative Gestalt psychotherapist and counsellor in Singapore offering individual psychotherapy, couples counselling, trauma therapy and EMDR.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "20 Upper Circular Road, #01-13, The Riverwalk",
+    "addressLocality": "Singapore",
+    "addressRegion": "Central",
+    "postalCode": "058416",
+    "addressCountry": "SG"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 1.2868,
+    "longitude": 103.8490
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/nicole-chew-helbig-453991227/",
+    "https://nikhelbig.at",
+    "https://www.facebook.com/GestaltTherapySG/",
+    "https://www.psychologytoday.com/sg/counselling/nicole-chew-helbig-singapore-sg/713251"
+  ],
+  "knowsAbout": [
+    "Gestalt Therapy",
+    "EMDR",
+    "Trauma Therapy",
+    "Couples Counselling",
+    "Anxiety Treatment",
+    "Depression Therapy",
+    "Burnout",
+    "OCD Treatment"
+  ],
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "Singapore Association for Counselling"
+    },
+    {
+      "@type": "Organization",
+      "name": "Singapore Psychological Society"
+    },
+    {
+      "@type": "Organization",
+      "name": "Association for Psychotherapists and Counsellors Singapore"
+    }
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "doctorate",
+    "educationalLevel": "PhD in Psychotherapy Science",
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Sigmund Freud University Vienna"
+    }
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Singapore"
+  }
+}
+</script>
+
+<!-- FAQ Schema -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can psychotherapy help me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gestalt Psychotherapy is an excellent resource for anyone who seeks a set and setting to re-calibrate themselves and press that internal reset button. Psychotherapy is an effective way for busy people to gain mental clarity, resiliency from emotional triggers, better sleep, health, and an overall sense of calm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens in a psychotherapy session?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A session feels like a conversation in a living room — unhurried, natural, grounded. Sometimes Mulan, my Singapore Special dog, is there too, quietly present. We sit with what's actually happening for you. The pace is yours. Therapy isn't something that happens to you here. It unfolds with you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does psychotherapy cost in Singapore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Psychotherapy in Singapore can cost between $40 and $350 per 50-min session. At my practice, individual psychotherapy (50 minutes) is SGD 220 and couples counselling (80 minutes) is SGD 370. The therapeutic outcome is correlated with the skill of the therapist, the therapeutic alliance and the client's willingness to participate in the work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I start therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Read the information on this site. Book an appointment using the link, or send me a message. Arrive 5–10 minutes before the first appointment to fill out a short form. Your therapy begins from this point."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many sessions of psychotherapy do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends. If you come to solve a particular issue, therapy ends when the solution is in sight. For symptoms that seriously interfere with daily functioning, effective work happens over months. Most clients continue because psychotherapy is a good resource for finding their ground."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who would couples counselling benefit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Couples therapy can benefit your relationship when you're courting, coming out to family, thinking of a life together, facing a crisis or infidelity, considering separation, co-parenting, or when someone has taken ill."
+      }
+    }
+  ]
+}
+</script>
+
+<!-- Service Schema -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Psychotherapy and Counselling",
+  "provider": {
+    "@type": "Psychologist",
+    "name": "Nicole Chew-Helbig",
+    "url": "https://psychotherapist.sg"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "Singapore"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Psychotherapy Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Individual Psychotherapy",
+          "description": "45–50 minute sessions shaped around what you're dealing with, your pace, and what feels important to you right now."
+        },
+        "price": "220",
+        "priceCurrency": "SGD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Couples Counselling",
+          "description": "80-minute sessions working with both partners, looking at patterns as they show up in real time."
+        },
+        "price": "370",
+        "priceCurrency": "SGD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Trauma Therapy (Gestalt & EMDR)",
+          "description": "Gestalt therapy and EMDR for working with childhood trauma and other overwhelming experiences, at a pace that feels manageable."
+        }
+      }
+    ]
+  }
+}
+</script>
+
+<!-- Open Graph & additional meta tags (also paste in <head>) -->
+
+<meta property="og:title" content="Psychotherapy & Counselling Singapore | Nicole Chew-Helbig, PhD">
+<meta property="og:description" content="Integrative Gestalt psychotherapy for individuals and couples. A grounded, relational approach to anxiety, trauma, burnout, and the difficulties that bring people to therapy.">
+<meta property="og:url" content="https://psychotherapist.sg">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://psychotherapist.sg/nicole-chew-helbig.jpg">
+<meta property="og:locale" content="en_SG">
+<meta name="geo.region" content="SG">
+<meta name="geo.placename" content="Singapore">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psychotherapy &amp; Counselling Singapore | Nicole Chew-Helbig</title>
+<meta name="description" content="Nicole Chew-Helbig, PhD — Integrative Gestalt psychotherapist and counsellor in Singapore. Individual psychotherapy, couples counselling, trauma therapy (Gestalt + EMDR). SAC Registered Counsellor.">
+<link rel="canonical" href="https://psychotherapist.sg/">
+<link rel="stylesheet" href="style.css">
+<meta property="og:title" content="Psychotherapy &amp; Counselling Singapore | Nicole Chew-Helbig">
+<meta property="og:description" content="Integrative Gestalt psychotherapy for individuals and couples in Singapore.">
+<meta property="og:url" content="https://psychotherapist.sg/">
+<meta property="og:type" content="website">
+
+<style>
+/* ─── SCROLL REVEAL ─────────────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+
+/* ─── HERO PARALLAX IMAGE ───────────────────────────────────── */
+.hero-chairs {
+  will-change: transform;
+  transition: transform 0.05s linear;
+}
+
+/* ─── CARD HOVER LIFT ───────────────────────────────────────── */
+.card {
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  cursor: default;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(158, 74, 90, 0.12);
+}
+
+/* ─── BREATHING CTA BUTTON ──────────────────────────────────── */
+@keyframes breathe {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(158, 74, 90, 0.0); }
+  50%       { box-shadow: 0 0 0 8px rgba(158, 74, 90, 0.15); }
+}
+.btn--green {
+  animation: breathe 3.2s ease-in-out infinite;
+}
+
+/* ─── SMOOTH FAQ ACCORDION ──────────────────────────────────── */
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding-top: 0;
+}
+.faq-item.open .faq-a {
+  max-height: 400px;
+  padding-top: 0.75rem;
+}
+
+/* ─── FAQ CHEVRON ───────────────────────────────────────────── */
+.faq-q {
+  position: relative;
+  padding-right: 2rem;
+}
+.faq-q::after {
+  content: '›';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 1.25rem;
+  color: #9e4a5a;
+  transition: transform 0.3s ease;
+  line-height: 1;
+}
+.faq-item.open .faq-q::after {
+  transform: translateY(-50%) rotate(270deg);
+}
+
+/* ─── FEE CARD HOVER ────────────────────────────────────────── */
+.fee-card {
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+.fee-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 28px rgba(158, 74, 90, 0.10);
+}
+
+/* ─── PHOTO HOVER ───────────────────────────────────────────── */
+img.photo {
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+img.photo:hover {
+  transform: scale(1.03);
+  filter: brightness(1.04);
+}
+</style>
+
+</head>
+<body>
+<div class="band"></div>
+<header class="site-header">
+  <div class="wrap--wide">
+    <a href="/" class="logo">Nicole Chew-Helbig <span>PhD</span></a>
+    <button class="nav-toggle" onclick="document.querySelector('nav').classList.toggle('open')"><span></span><span></span><span></span></button>
+    <nav>
+      <a href="/">Home</a>
+      <a href="couples-counselling.html">Couples</a>
+      <a href="anxiety-counselling.html">Anxiety</a>
+      <a href="gestalt-therapy.html">Why Gestalt Therapy</a>
+      <a href="psychotherapy-blog.html">Blog</a>
+      <a href="https://nicolechewhelbig.com" target="_blank" rel="noopener noreferrer">Publications</a>
+      <a href="https://wa.me/6587978848" target="_blank" rel="noopener noreferrer">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label reveal">Psychotherapy &amp; Counselling · Singapore</p>
+    <h1 class="reveal reveal-delay-1" id="hero-h1" aria-label="Psychotherapy That Begins With Where You Are"></h1>
+    <p style="max-width:540px; margin-top:1rem;" class="reveal reveal-delay-2">Integrative Gestalt psychotherapy for individuals and couples. A grounded, relational approach to anxiety, trauma, burnout, and the difficulties that bring people to therapy.</p>
+    <p style="margin-top:1.5rem;" class="reveal reveal-delay-3"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book an Appointment</a></p>
+    <img src="https://psychotherapist.sg/chairs8.png" alt="Two therapy chairs facing each other" class="hero-chairs reveal reveal-delay-3" style="width:200px; opacity:0.85; margin-top:1.5rem;">
+  </div>
+</section>
+
+<section class="section section--tinted">
+  <div class="wrap">
+    <p class="label reveal">About Your Therapist</p>
+    <h2 class="reveal reveal-delay-1">Psychotherapist Nicole Chew-Helbig</h2>
+    <div class="photo-bio reveal reveal-delay-2" style="margin-top:1.5rem;">
+      <div>
+        <img src="nicole-chew-helbig.jpg" alt="Nicole Chew-Helbig, psychotherapist in Singapore" class="photo" style="width:180px; border-radius:3px;">
+      </div>
+      <div>
+        <p>I am a certified Integrative Gestalt psychotherapist and counsellor based in Singapore. I hold a doctorate in Psychotherapy Science from Sigmund Freud University, Vienna.</p>
+        <p>Before transitioning into mental health, I had an established career in food and beverage technology, building on my background in Biochemistry from the National University of Singapore. That earlier work still shapes my thinking around systems and adaptation.</p>
+        <p>My journey into psychotherapy deepened during the refugee crisis in Austria, where I worked with asylum seekers and trauma survivors. Those encounters — often across language and cultural divides — revealed that healing happens through presence.</p>
+        <p><strong>Registered Counsellor</strong> · Singapore Association for Counselling (SAC #C0470)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label reveal">Therapeutic Approach</p>
+    <h2 class="reveal reveal-delay-1">Integrative Gestalt Therapy in Singapore</h2>
+    <p class="reveal reveal-delay-2">My work is grounded in <a href="gestalt-therapy.html">Integrative Gestalt Therapy</a>. Rather than manualising and assessing, this approach responds to who you are and what you're ready for.</p>
+    <p class="reveal reveal-delay-2">Gestalt therapy places emphasis on awareness — what you notice, feel, and experience in the present moment — and how change often begins through real contact, not techniques.</p>
+    <p class="reveal reveal-delay-3">The work draws from psychoanalysis, phenomenology, Eastern philosophy, body-based approaches, and psychodrama. I work with attention to context — personal, relational, cultural, and social — supporting changes that feel grounded and can be carried into everyday life.</p>
+  </div>
+</section>
+
+<section class="section section--tinted">
+  <div class="wrap">
+    <p class="label reveal">Psychotherapy Services</p>
+    <h2 class="reveal reveal-delay-1">Individual Therapy, Couples Counselling &amp; Trauma Work</h2>
+    <p style="max-width:620px; margin-bottom:2rem;" class="reveal reveal-delay-2">I offer psychotherapy and counselling for individuals working with anxiety, depression, burnout, OCD, work stress, trauma, and relationship difficulties. My practice also includes work with compulsive behaviours, sexual addiction, questions around gender and identity, dissociation, sleep problems, chronic pain, substance use, and disordered eating.</p>
+    <div class="three-col">
+      <div class="card reveal reveal-delay-1">
+        <p class="card-label">Individual Therapy</p>
+        <h3>Psychotherapy for Individuals</h3>
+        <p>45–50 minute sessions shaped around what you're dealing with, your pace, and what feels important to you right now. A place to slow down and take a closer look at what's going on.</p>
+      </div>
+      <div class="card reveal reveal-delay-2">
+        <p class="card-label">Couples Therapy</p>
+        <h3>Couples Counselling Singapore</h3>
+        <p>80-minute sessions working with both partners. We look at patterns as they show up in real time — how you speak, listen, defend, withdraw, or reach for each other.</p>
+        <p style="margin-top:0.5rem;"><a href="couples-counselling.html">Learn more &rarr;</a></p>
+      </div>
+      <div class="card reveal reveal-delay-3">
+        <p class="card-label">Trauma Therapy</p>
+        <h3>Gestalt Therapy &amp; non-manualised EMDR</h3>
+        <p>We move carefully and at a pace that feels manageable. Using a Gestalt approach, we stay grounded in the present while gently bringing unfinished or fragmented experiences into awareness.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label reveal">Psychotherapy Fees</p>
+    <h2 class="reveal reveal-delay-1">Session Fees &amp; Booking</h2>
+    <div class="fees-row">
+      <div class="fee-card reveal reveal-delay-1">
+        <p class="fee-label">Individual Psychotherapy</p>
+        <div class="fee-price">$220</div>
+        <p class="fee-detail">50 minutes · In-person or online</p>
+      </div>
+      <div class="fee-card reveal reveal-delay-2">
+        <p class="fee-label">Couples Counselling</p>
+        <div class="fee-price">$370</div>
+        <p class="fee-detail">80 minutes · In-person or online</p>
+      </div>
+    </div>
+    <p class="reveal"><strong>First session is where the work starts.</strong> For most people, the work begins in the first session. The most meaningful way to know whether this work suits you is to experience a full session and notice how it lands in you.</p>
+    <p class="reveal"><strong>Cancellation:</strong> Please let me know as soon as possible if you need to change your appointment. Cancellations made less than 48 hours before the session start time are charged in full.</p>
+    <p style="margin-top:1.5rem;" class="reveal reveal-delay-1"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book Appointment Online</a></p>
+  </div>
+</section>
+
+<section class="section section--tinted">
+  <div class="wrap">
+    <p class="label reveal">Psychotherapy Practice Location</p>
+    <h2 class="reveal reveal-delay-1">Contact &amp; Appointments</h2>
+
+    <!-- Moving notice -->
+    <p class="reveal reveal-delay-2" style="text-align:center; margin:1.5rem auto 0.75rem; font-family:'Playfair Display',Georgia,serif; font-size:1.1rem; color:#9e4a5a; font-style:italic;">Notice: I'm moving to Tiong Bahru on 01 July 2026</p>
+
+    <!-- Moving to Tiong Bahru animation -->
+    <div class="reveal reveal-delay-3" style="text-align:center; margin:0 auto 2rem; max-width:680px;">
+      <svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto;">
+
+<!-- Sky -->
+<rect x="0" y="0" width="680" height="300" fill="#F0E8DD"/>
+
+<!-- Clouds -->
+<ellipse cx="130" cy="55" rx="55" ry="18" fill="#F7F2EB" opacity="0.7"/>
+<ellipse cx="160" cy="50" rx="35" ry="13" fill="#F7F2EB" opacity="0.5"/>
+<ellipse cx="510" cy="70" rx="48" ry="16" fill="#F7F2EB" opacity="0.6"/>
+<ellipse cx="545" cy="65" rx="30" ry="11" fill="#F7F2EB" opacity="0.4"/>
+
+<!-- Ground -->
+<rect x="0" y="280" width="680" height="140" fill="#D4CFC6"/>
+<rect x="0" y="290" width="680" height="6" fill="#C4BFB6" rx="2"/>
+
+<!-- Dashed road centre line -->
+<line x1="0" y1="330" x2="680" y2="330" stroke="#B8B3AA" stroke-width="2" stroke-dasharray="18 12"/>
+
+<!-- LEFT: Riverwalk building (faded) -->
+<g opacity="0.45">
+  <text x="90" y="138" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#9A8B7C" font-weight="500" letter-spacing="1">RIVERWALK</text>
+  <rect x="30" y="145" width="120" height="145" fill="#B8A99A" rx="3"/>
+  <rect x="40" y="160" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="70" y="160" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="100" y="160" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="40" y="198" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="70" y="198" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="100" y="198" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="40" y="236" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="70" y="236" width="20" height="28" fill="#D4CFC6" rx="2"/>
+  <rect x="100" y="236" width="20" height="28" fill="#D4CFC6" rx="2"/>
+</g>
+
+<!-- RIGHT: Tiong Bahru shophouse -->
+<g>
+  <text x="570" y="122" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8B6B3E" font-weight="500" letter-spacing="1">TIONG BAHRU</text>
+  <rect x="500" y="155" width="140" height="135" fill="#C9A87C" rx="3"/>
+  <rect x="500" y="145" width="140" height="13" fill="#B8956A" rx="2"/>
+  <rect x="518" y="138" width="104" height="9" fill="#B8956A" rx="2"/>
+  <rect x="538" y="132" width="64" height="8" fill="#C9A87C" rx="2"/>
+  <line x1="504" y1="153" x2="636" y2="153" stroke="#A6845A" stroke-width="1"/>
+  <line x1="504" y1="157" x2="636" y2="157" stroke="#A6845A" stroke-width="0.5"/>
+  <rect x="514" y="174" width="24" height="32" fill="#F5EDE0" rx="2"/>
+  <path d="M514,174 Q526,165 538,174" fill="#B8956A"/>
+  <rect x="550" y="174" width="24" height="32" fill="#F5EDE0" rx="2"/>
+  <path d="M550,174 Q562,165 574,174" fill="#B8956A"/>
+  <rect x="586" y="174" width="24" height="32" fill="#F5EDE0" rx="2"/>
+  <path d="M586,174 Q598,165 610,174" fill="#B8956A"/>
+  <rect x="514" y="220" width="24" height="32" fill="#F5EDE0" rx="2"/>
+  <rect x="550" y="220" width="24" height="32" fill="#F5EDE0" rx="2"/>
+  <rect x="586" y="220" width="24" height="40" fill="#8B6B3E" rx="2"/>
+  <circle cx="606" cy="241" r="2" fill="#C9A87C"/>
+  <rect x="500" y="260" width="140" height="30" fill="#B8956A"/>
+  <line x1="518" y1="260" x2="518" y2="290" stroke="#A6845A" stroke-width="1"/>
+  <line x1="550" y1="260" x2="550" y2="290" stroke="#A6845A" stroke-width="1"/>
+  <line x1="582" y1="260" x2="582" y2="290" stroke="#A6845A" stroke-width="1"/>
+  <line x1="614" y1="260" x2="614" y2="290" stroke="#A6845A" stroke-width="1"/>
+</g>
+
+<!-- Dotted trail -->
+<path d="M155,312 Q260,298 340,316 Q430,334 490,312" fill="none" stroke="#A6845A" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5"/>
+
+<!-- LAYER 1 (bottom): COUCH -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="-210,0; -210,0; 0,0; 200,0; 200,0" keyTimes="0; 0.05; 0.45; 0.85; 1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0 0 1 1"/>
+  <rect x="326" y="290" width="48" height="13" fill="#993556" rx="5"/>
+  <rect x="326" y="300" width="48" height="22" fill="#D4537E" rx="5"/>
+  <rect x="320" y="296" width="11" height="26" fill="#D4537E" rx="5"/>
+  <rect x="369" y="296" width="11" height="26" fill="#D4537E" rx="5"/>
+  <line x1="346" y1="303" x2="346" y2="319" stroke="#993556" stroke-width="0.7" opacity="0.5"/>
+  <rect x="332" y="322" width="4" height="7" fill="#72243E" rx="1"/>
+  <rect x="366" y="322" width="4" height="7" fill="#72243E" rx="1"/>
+  <rect x="336" y="293" width="14" height="10" fill="#ED93B1" rx="3">
+    <animate attributeName="y" values="293;290;293" dur="1s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+  </rect>
+</g>
+
+<!-- LAYER 2: ARMCHAIR -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="-210,0; -210,0; 0,0; 200,0; 200,0" keyTimes="0; 0.07; 0.47; 0.87; 1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0 0 1 1"/>
+  <rect x="276" y="296" width="36" height="12" fill="#6B4427" rx="4"/>
+  <rect x="276" y="305" width="36" height="16" fill="#8B5E3C" rx="4"/>
+  <rect x="272" y="300" width="8" height="21" fill="#8B5E3C" rx="4"/>
+  <rect x="308" y="300" width="8" height="21" fill="#8B5E3C" rx="4"/>
+  <line x1="294" y1="308" x2="294" y2="319" stroke="#6B4427" stroke-width="0.6" opacity="0.5"/>
+  <rect x="280" y="321" width="3" height="6" fill="#4A2E1A" rx="1"/>
+  <rect x="305" y="321" width="3" height="6" fill="#4A2E1A" rx="1"/>
+</g>
+
+<!-- LAYER 3: PLANT -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="-210,0; -210,0; 0,0; 200,0; 200,0" keyTimes="0; 0.1; 0.5; 0.9; 1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0 0 1 1"/>
+  <rect x="241" y="318" width="14" height="12" fill="#C9A87C" rx="2"/>
+  <rect x="239" y="315" width="18" height="5" fill="#B8956A" rx="2"/>
+  <ellipse cx="248" cy="308" rx="5" ry="9" fill="#639922">
+    <animate attributeName="ry" values="9;10;9" dur="1.3s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="243" cy="310" rx="4" ry="7" fill="#97C459" transform="rotate(-20,243,310)"/>
+  <ellipse cx="253" cy="310" rx="4" ry="7" fill="#97C459" transform="rotate(20,253,310)"/>
+</g>
+
+<!-- LAYER 4: TISSUE BOX -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="-210,0; -210,0; 0,0; 200,0; 200,0" keyTimes="0; 0.12; 0.52; 0.92; 1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0 0 1 1"/>
+  <rect x="211" y="320" width="14" height="10" fill="#F5EDE0" rx="1" stroke="#D4CFC6" stroke-width="0.5"/>
+  <path d="M215,320 Q218,314 221,320" fill="none" stroke="#E8E0D4" stroke-width="1.2">
+    <animate attributeName="d" values="M215,320 Q218,314 221,320; M215,320 Q218,312 221,320; M215,320 Q218,314 221,320" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+</g>
+
+<!-- LAYER 5 (top): DOG -->
+<g>
+  <animateTransform attributeName="transform" type="translate" values="-210,0; -210,0; 0,0; 200,0; 200,0" keyTimes="0; 0.03; 0.43; 0.83; 1" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1; 0.25 0.1 0.25 1; 0.25 0.1 0.25 1; 0 0 1 1"/>
+  <path d="M385,314 Q378,305 380,298" fill="none" stroke="#8B5E3C" stroke-width="2.5" stroke-linecap="round">
+    <animate attributeName="d" values="M385,314 Q378,305 380,298; M385,314 Q376,308 374,302; M385,314 Q378,305 380,298" dur="0.5s" repeatCount="indefinite"/>
+  </path>
+  <ellipse cx="400" cy="318" rx="16" ry="9" fill="#8B5E3C"/>
+  <line x1="389" y1="324" x2="386" y2="334" stroke="#8B5E3C" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="x2" values="384;389;384" dur="0.4s" repeatCount="indefinite"/>
+  </line>
+  <line x1="394" y1="324" x2="397" y2="334" stroke="#8B5E3C" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="x2" values="399;394;399" dur="0.4s" repeatCount="indefinite"/>
+  </line>
+  <line x1="407" y1="324" x2="404" y2="334" stroke="#8B5E3C" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="x2" values="402;407;402" dur="0.4s" repeatCount="indefinite"/>
+  </line>
+  <line x1="412" y1="324" x2="415" y2="334" stroke="#8B5E3C" stroke-width="3" stroke-linecap="round">
+    <animate attributeName="x2" values="417;412;417" dur="0.4s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="418" cy="310" r="8" fill="#A0714E"/>
+  <ellipse cx="414" cy="305" rx="4" ry="7" fill="#6B4427" transform="rotate(-15,414,305)">
+    <animate attributeName="ry" values="7;8;7" dur="0.8s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="424" cy="313" rx="5" ry="3.5" fill="#C09070"/>
+  <circle cx="428" cy="312" r="1.5" fill="#4A2E1A"/>
+  <circle cx="421" cy="308" r="1.5" fill="#4A2E1A"/>
+</g>
+
+<!-- Tagline -->
+<text x="340" y="400" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#9A8B7C" font-style="italic">new home, same couch — July 2026</text>
+
+      </svg>
+    </div>
+    <!-- End animation -->
+
+    <div class="contact-row reveal reveal-delay-2" style="margin-top:1.5rem;">
+      <div>
+        <div class="address">
+          <p class="address-label">Practice Address</p>
+          <p>20 Upper Circular Road, #01-13<br>The Riverwalk, Singapore 058416</p>
+        </div>
+        <p>2 min walk from Clarke Quay MRT Station (exit Boat Quay / Eu Tong Sen Str.)</p>
+        <p style="margin-top:1.5rem;">
+          <a href="https://wa.me/6587978848" class="btn btn--outline" target="_blank" rel="noopener noreferrer">WhatsApp</a>&nbsp;&nbsp;
+          <a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book Online</a>
+        </p>
+      </div>
+      <div>
+        <h3>What to Expect at Your First Session</h3>
+        <p>Please arrive 5–10 minutes early to locate the office, settle in, and complete a short registration form.</p>
+        <p>For most people, therapy begins in the first session. The only real way to know whether working together feels right is to experience a full session.</p>
+        <p style="margin-top:1rem;"><strong>Professional Memberships:</strong> Singapore Association for Counselling (SAC #C0470), Singapore Psychological Society, Association for Psychotherapists and Counsellors Singapore.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="label reveal">Common Questions</p>
+    <h2 class="reveal reveal-delay-1">Frequently Asked Questions About Psychotherapy</h2>
+    <div class="faq-item reveal reveal-delay-1"><div class="faq-q">How can psychotherapy help me?</div><div class="faq-a"><p>Gestalt Psychotherapy is an excellent resource for anyone who seeks a set and setting to re-calibrate themselves and press that "internal reset button". Psychotherapy is an effective way for busy people to gain mental clarity, resiliency from emotional triggers, better sleep, health, and an overall sense of calm.</p></div></div>
+    <div class="faq-item reveal reveal-delay-2"><div class="faq-q">What happens in a psychotherapy session?</div><div class="faq-a"><p>A session feels like a conversation in a living room — unhurried, natural, grounded. Sometimes Mulan, my Singapore Special dog, is there too, quietly present. We sit with what's actually happening for you. The pace is yours. Therapy isn't something that happens <em>to</em> you here. It unfolds <em>with</em> you.</p></div></div>
+    <div class="faq-item reveal reveal-delay-2"><div class="faq-q">How much does psychotherapy cost in Singapore?</div><div class="faq-a"><p>Psychotherapy in Singapore can cost between $40 and $350 per 50-min session. At my practice, it is $220. The therapeutic outcome is correlated with the skill of the therapist, the therapeutic alliance and the client's willingness to participate in the work.</p></div></div>
+    <div class="faq-item reveal reveal-delay-3"><div class="faq-q">How do I start therapy?</div><div class="faq-a"><p>Read the information on this site. Book an appointment using the link, or send me a message. Arrive 5–10 minutes before the first appointment to fill out a short form. Your therapy begins from this point.</p></div></div>
+    <div class="faq-item reveal reveal-delay-3"><div class="faq-q">How many sessions do I need?</div><div class="faq-a"><p>It depends. If you come to solve a particular issue, therapy ends when the solution is in sight. For symptoms that seriously interfere with daily functioning, effective work happens over months. Most clients continue because psychotherapy is a good resource for finding their ground.</p></div></div>
+    <div class="faq-item reveal reveal-delay-3"><div class="faq-q">Who would couples counselling benefit?</div><div class="faq-a"><p>Couples therapy can benefit your relationship when you're courting, coming out to family, thinking of a life together, facing a crisis or infidelity, considering separation, co-parenting, or when someone has taken ill.</p></div></div>
+  </div>
+</section>
+
+<div style="text-align:center; padding:2rem 0; border-top:1px solid #e0dbd4;" class="reveal">
+  <a href="https://nicolechewhelbig.com/couples-therapy.html" style="font-family:'Playfair Display',Georgia,serif; font-size:1rem; font-style:italic;" target="_blank" rel="noopener noreferrer">New book: A Gestalt Approach to Couples Therapy — The Dance of Difference &rarr;</a>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap--wide">
+    <div class="footer-grid">
+      <div><h4>Practice</h4><a href="/">Home</a><a href="couples-counselling.html">Couples Counselling</a><a href="anxiety-counselling.html">Anxiety Counselling</a><a href="psychotherapy-blog.html">Psychotherapy Blog</a><a href="contact-me.html">Contact</a></div>
+      <div><h4>Resources</h4><a href="mental-health-knowledge.html">Mental Health Knowledge</a><a href="couples-therapy-book.html">Couples Therapy Book</a><a href="fieldnotes.html">FieldNotes</a></div>
+      <div><h4>Elsewhere</h4><a href="https://nikhelbig.at" target="_blank">Publications &amp; Articles</a><a href="https://nikhelbig.at/gestalt-therapy-resource-page/" target="_blank">Gestalt Therapy Resources</a></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2020–2026 <span class="footer-brand">psychotherapist.sg</span> · Nicole Chew-Helbig. All rights reserved.</p>
+      <p class="emergency">Emergency? Call IMH's 24-hour Mental Health Helpline <a href="tel:63892222">6389 2222</a></p>
+    </div>
+  </div>
+</footer>
+<div class="band band--bottom"></div>
+
+<script>
+/* ─── 1. SCROLL REVEAL ──────────────────────────────────────── */
+(function () {
+  const els = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          io.unobserve(e.target);
+        }
+      });
+    },
+    { threshold: 0.12 }
+  );
+  els.forEach((el) => io.observe(el));
+  /* Fire immediately for anything already in view on load */
+  setTimeout(() => {
+    document.querySelectorAll('.reveal:not(.visible)').forEach((el) => {
+      const r = el.getBoundingClientRect();
+      if (r.top < window.innerHeight) el.classList.add('visible');
+    });
+  }, 80);
+})();
+
+/* ─── 2. TYPING EFFECT ON H1 ───────────────────────────────── */
+(function () {
+  const el = document.getElementById('hero-h1');
+  if (!el) return;
+  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const parts = [
+    { text: 'Psychotherapy That Begins', em: false },
+    { text: '\nWith ', em: false },
+    { text: 'Where You Are', em: true }
+  ];
+  let html = '';
+  let charIndex = 0;
+  const allChars = [];
+  parts.forEach(function (p) {
+    p.text.split('').forEach(function (c) {
+      allChars.push({ char: c, em: p.em });
+    });
+  });
+
+  function buildHTML() {
+    let result = '';
+    let inEm = false;
+    allChars.slice(0, charIndex).forEach(function (c) {
+      if (c.char === '\n') {
+        if (inEm) { result += '</em>'; inEm = false; }
+        result += '<br>';
+        return;
+      }
+      if (c.em && !inEm) { result += '<em>'; inEm = true; }
+      if (!c.em && inEm) { result += '</em>'; inEm = false; }
+      result += c.char;
+    });
+    if (inEm) result += '</em>';
+    return result;
+  }
+
+  if (mq.matches) {
+    el.innerHTML = 'Psychotherapy That Begins<br>With <em>Where You Are</em>';
+    return;
+  }
+
+  /* Wait until the element is visible, then start */
+  const io = new IntersectionObserver(function (entries) {
+    if (!entries[0].isIntersecting) return;
+    io.disconnect();
+    el.classList.add('visible');
+    const delay = 520; /* ms after visible before typing starts */
+    setTimeout(function tick() {
+      charIndex++;
+      el.innerHTML = buildHTML();
+      if (charIndex < allChars.length) {
+        setTimeout(tick, 38);
+      }
+    }, delay);
+  }, { threshold: 0.2 });
+  io.observe(el);
+})();
+
+/* ─── 4. SMOOTH FAQ (replaces inline onclick) ───────────────── */
+document.querySelectorAll('.faq-q').forEach(function (q) {
+  q.addEventListener('click', function () {
+    const item = this.parentElement;
+    const isOpen = item.classList.contains('open');
+    /* Close all */
+    document.querySelectorAll('.faq-item.open').forEach(function (el) {
+      el.classList.remove('open');
+    });
+    /* Re-open if it was closed */
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+/* ─── 5. HERO PARALLAX ──────────────────────────────────────── */
+(function () {
+  const img = document.querySelector('.hero-chairs');
+  if (!img) return;
+  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  if (mq.matches) return;
+  window.addEventListener('scroll', function () {
+    const offset = window.scrollY;
+    img.style.transform = 'translateY(' + offset * 0.18 + 'px)';
+  }, { passive: true });
+})();
+</script>
+
+</body>
+</html>
+
