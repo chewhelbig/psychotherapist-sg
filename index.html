@@ -248,11 +248,6 @@
 .reveal-delay-1 { transition-delay: 0.1s; }
 .reveal-delay-2 { transition-delay: 0.2s; }
 .reveal-delay-3 { transition-delay: 0.3s; }
-/* ─── HERO PARALLAX IMAGE ───────────────────────────────────── */
-.hero-chairs {
-  will-change: transform;
-  transition: transform 0.05s linear;
-}
 /* ─── CARD HOVER LIFT ───────────────────────────────────────── */
 .card {
   transition: transform 0.28s ease, box-shadow 0.28s ease;
@@ -778,17 +773,6 @@ document.querySelectorAll('.faq-q').forEach(function (q) {
     if (!isOpen) item.classList.add('open');
   });
 });
-/* ─── 5. HERO PARALLAX ──────────────────────────────────────── */
-(function () {
-  const img = document.querySelector('.hero-chairs');
-  if (!img) return;
-  const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
-  if (mq.matches) return;
-  window.addEventListener('scroll', function () {
-    const offset = window.scrollY;
-    img.style.transform = 'translateY(' + offset * 0.18 + 'px)';
-  }, { passive: true });
-})();
 </script>
 </body>
 </html>
