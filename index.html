@@ -316,6 +316,43 @@ img.photo:hover {
   transform: scale(1.03);
   filter: brightness(1.04);
 }
+/* ─── RAIN OVER "CHANGE CAME LIKE RAIN" ─────────────────────── */
+.rain-quote {
+  position: relative;
+}
+.rain-quote .rain {
+  position: absolute;
+  top: -1.75rem;
+  left: 0;
+  right: 0;
+  bottom: -0.5rem;
+  pointer-events: none;
+  overflow: hidden;
+}
+.rain-quote .rain i {
+  position: absolute;
+  top: -20px;
+  width: 1.5px;
+  height: 14px;
+  border-radius: 1px;
+  background: linear-gradient(to bottom, rgba(158, 74, 90, 0), rgba(158, 74, 90, 0.35));
+  opacity: 0;
+}
+/* Drops only start falling once the line has revealed */
+.rain-quote.visible .rain i {
+  animation-name: rainfall;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 2;
+}
+@keyframes rainfall {
+  0%   { transform: translateY(0);     opacity: 0; }
+  15%  { opacity: 1; }
+  80%  { opacity: 0.8; }
+  100% { transform: translateY(115px); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rain-quote .rain { display: none; }
+}
 </style>
 </head>
 <body>
@@ -340,7 +377,7 @@ img.photo:hover {
     <p class="label reveal">Psychotherapy &amp; Counselling · Singapore</p>
     <h1 class="reveal reveal-delay-1" id="hero-h1" aria-label="Psychotherapy that begins with where you are"></h1>
     <p style="max-width:540px; margin-top:1rem;" class="reveal reveal-delay-2">Counselling and psychotherapy for individuals and couples. A grounded approach to anxiety, trauma, burnout, and what gets carried into adult life.</p>
-    <p class="reveal reveal-delay-2" style="font-family:'Playfair Display',Georgia,serif; font-size:1.35rem; font-style:italic; line-height:1.5; max-width:540px; margin-top:1.75rem;">For most of my clients, change came like rain.</p>
+    <p class="reveal reveal-delay-2 rain-quote" style="font-family:'Playfair Display',Georgia,serif; font-size:1.35rem; font-style:italic; line-height:1.5; max-width:540px; margin-top:1.75rem;"><span class="rain" aria-hidden="true"><i style="left:4%;  animation-delay:0.55s; animation-duration:2.1s;"></i><i style="left:13%; animation-delay:1.30s; animation-duration:2.6s;"></i><i style="left:23%; animation-delay:0.85s; animation-duration:2.3s;"></i><i style="left:32%; animation-delay:1.70s; animation-duration:2.0s;"></i><i style="left:41%; animation-delay:0.60s; animation-duration:2.7s;"></i><i style="left:53%; animation-delay:1.10s; animation-duration:2.2s;"></i><i style="left:64%; animation-delay:0.75s; animation-duration:2.5s;"></i><i style="left:75%; animation-delay:1.50s; animation-duration:2.1s;"></i><i style="left:86%; animation-delay:0.95s; animation-duration:2.4s;"></i><i style="left:95%; animation-delay:1.85s; animation-duration:2.3s;"></i></span>For most of my clients, change came like rain.</p>
     <p class="reveal reveal-delay-3" style="max-width:540px;">No forcing themselves to be different. No homework. No deliberate exposure to stress — life is complex enough. They came to sessions, and experienced what it is like to be them.</p>
     <p class="reveal reveal-delay-3" style="max-width:540px;"><strong>What does this ask of you?</strong> New clients usually come weekly. Once the work has taken root, about 80% of my regular clients come once a month.</p>
     <p style="margin-top:1.5rem;" class="reveal reveal-delay-3"><a href="https://book.psychotherapist.sg" class="btn btn--green" target="_blank" rel="noopener noreferrer">Book an Appointment</a></p>
