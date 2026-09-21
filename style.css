@@ -62,6 +62,10 @@ nav a:hover { color: #9e4a5a; }
 .fees-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }
 .contact-row { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; }
 .photo-bio { display: grid; grid-template-columns: 180px 1fr; gap: 2rem; align-items: start; }
+.book-note { display: grid; grid-template-columns: 110px 1fr; gap: 2rem; align-items: start; margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid #e0dbd4; }
+.book-note img { width: 110px; height: auto; display: block; border-radius: 2px; box-shadow: 0 6px 20px rgba(158, 74, 90, 0.12); }
+.book-note h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.15rem; margin-bottom: 0.4rem; }
+.book-note .book-text { max-width: 520px; }
 
 /* Cards */
 .card { background: #f0e8c8; padding: 1.5rem; border-radius: 3px; }
@@ -123,12 +127,12 @@ nav a:hover { color: #9e4a5a; }
 .footer-brand { font-family: 'Playfair Display', Georgia, serif; font-style: italic; color: #9e4a5a; }
 .emergency { margin-top: 0.4rem; font-size: 0.75rem; }
 
-/* Author credit & book note */
+/* Author credit */
 .author-credit { font-size: 0.75rem; line-height: 1.55; max-width: 620px; margin: 0 auto 0.5rem; color: #8a8478; }
 .author-credit em { font-style: italic; }
 .author-credit a { color: #9e4a5a; }
-.book-note { display: flex; gap: 1.5rem; align-items: flex-start; margin-top: 2rem; padding-top: 1.75rem; border-top: 1px solid #e0dbd4; }
-.book-note img { width: 130px; height: auto; border-radius: 2px; box-shadow: 0 6px 20px rgba(158, 74, 90, 0.12); flex-shrink: 0; }
-.book-note .book-text { max-width: 480px; }
-.book-note h3 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.15rem; margin-bottom: 0.4rem; }
-@media (max-width: 600px) { .book-note { flex-direction: column; gap: 1rem; } .book-note img { width: 110px; } }
+
+@media (max-width: 700px) {
+  .book-note { grid-template-columns: 92px 1fr; gap: 1.25rem; }
+  .book-note img { width: 92px; }
+}
